@@ -1,0 +1,161 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+button{
+  background-color: #ccc;
+  color: #333;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.delete:hover{
+  background-color: red;
+}
+button:hover{
+  background-color: green;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #6200ea;
+  color: #fff;
+  margin: 0;
+}
+
+.App {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 1.5em;
+  color: #6200ea;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table th, table td {
+  text-align: left;
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  background-color: #6200ea;
+  color: #fff;
+  font-weight: bold;
+}
+
+table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Form Styles */
+form {
+  margin: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+form input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #6200ea;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #3700b3;
+}
+
+/* Pagination Styles */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.pagination button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #6200ea;
+  color: #fff;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+
+.pagination span {
+  font-size: 1em;
+  color: #333;
+}
+
+/* Error Message Styles */
+.error {
+  color: #d32f2f;
+  margin: 10px 0;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .App {
+    padding: 10px;
+  }
+
+  table th, table td {
+    font-size: 0.9em;
+    padding: 8px;
+  }
+
+  form input {
+    font-size: 0.9em;
+    padding: 8px;
+  }
+
+  form button {
+    font-size: 0.9em;
+    padding: 8px 16px;
+  }
+
+  .pagination button {
+    font-size: 0.9em;
+    padding: 6px 12px;
+  }
+}
